@@ -8,7 +8,7 @@ st.write('Predict your energy level based on sleep hours and break time.')
 
 # --- Model Training (re-included for standalone Streamlit app) ---
 # Load data
-df = pd.read_csv('/content/energy_level.csv')
+df = pd.read_csv('energy_level.csv')
 
 # Define features (X) and target (y)
 x = df[['sleep_hours', 'break_time']]
